@@ -1,0 +1,19 @@
+common: &common
+  adapter: postgresql
+  username: postgres
+  password: password
+  min_messages: ERROR
+
+development:
+  <<: *common
+  database: blog_todo_weather_app_development
+
+demo:
+  <<: *common
+  database: blog_todo_weather_app_demo
+
+test:
+  <<: *common
+  database: blog_todo_weather_app_test
+
+

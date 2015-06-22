@@ -1,0 +1,18 @@
+%h1
+  = @item.title
+
+- if @item.completed_at.present?
+  %h4
+    This item was competed at
+    = @item.completed_at
+
+%a{href: edit_item_path(@item)}
+  Edit
+
+= link_to 'Delete', item_path(@item), method: :delete, data: { confirm: 'Are you sure?' }
+
+- unless @item.completed_at.present?
+  = link_to 'Mark As Done', item_mark_as_done_path(@item), method: :post
+
+.item-body
+  = @item.body

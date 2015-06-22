@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails blog-todo-weather-app: beta" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="5ff574b6-4a08-4544-927d-9780d52ac000">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql:blog_todo_weather_app_demo</jdbc-url>
+    <user-name>postgres</user-name>
+    <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails blog-todo-weather-app: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="b03bb92c-8ccd-4980-85a9-6eb9013a9c6b">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql:blog_todo_weather_app_test</jdbc-url>
+    <user-name>postgres</user-name>
+    <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails blog-todo-weather-app: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="4fdaaa87-a525-4d75-84ab-73343476bc2d">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql:blog_todo_weather_app_development</jdbc-url>
+    <user-name>postgres</user-name>
+    <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails blog-todo-weather-app: demo" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="ac06f6e1-dbfa-49e7-ba77-f0f44f1565d2">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql:blog_todo_weather_app_demo</jdbc-url>
+    <user-name>postgres</user-name>
+    <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>
