@@ -13,9 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20150528000525) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "items", force: :cascade do |t|
     t.string   "title"
     t.datetime "completed_at"
@@ -24,6 +21,6 @@ ActiveRecord::Schema.define(version: 20150528000525) do
     t.datetime "updated_at",   null: false
   end
 
-  add_index "items", ["completed_at"], name: "index_items_on_completed_at", using: :btree
+  add_index "items", ["completed_at"], name: "index_items_on_completed_at"
 
 end
