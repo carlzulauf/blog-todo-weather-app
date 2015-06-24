@@ -6,8 +6,15 @@
     This item was competed at
     = @item.completed_at
 
+%a{href: items_path}
+  Back to list
+
+&nbsp;
+
 %a{href: edit_item_path(@item)}
   Edit
+
+&nbsp;
 
 = link_to 'Delete', item_path(@item), method: :delete, data: { confirm: 'Are you sure?' }
 

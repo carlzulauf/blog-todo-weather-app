@@ -10,3 +10,8 @@
     = f.text_area :body
 
   = f.submit
+  
+  - if item.new_record?
+    = link_to 'Cancel', items_path
+  - else
+    = link_to 'Cancel', item_path(item)
